@@ -1721,6 +1721,7 @@ body.ie ._ibg img {
     -o-transition: all 1s;
     transition: all 1s;
     z-index: 16;
+    background-color: #4822a8;
   }
 
   .header .header__link {
@@ -1729,7 +1730,6 @@ body.ie ._ibg img {
   }
 
   .header ._active.header__body {
-    background-color: #4822a8;
     right: 0;
   }
 
