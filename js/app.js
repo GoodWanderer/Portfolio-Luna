@@ -206,6 +206,7 @@ if (iconMenu != null) {
 		}
 	});
 };
+
 function menu_close() {
 	let iconMenu = document.querySelector(".icon-menu");
 	let menuBody = document.querySelector(".menu__body");
