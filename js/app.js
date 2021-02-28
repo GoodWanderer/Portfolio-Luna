@@ -1527,7 +1527,7 @@ if (link) {
 			let target_block_class = el.getAttribute('href').replace('#', '');
 			let target_block = document.querySelector('.' + target_block_class);
 			_goto(target_block, 300);
-			// e.preventDefault();
+			e.preventDefault();
 		})
 	}
 
@@ -1562,10 +1562,10 @@ if (goto_links) {
 	for (let index = 0; index < goto_links.length; index++) {
 		let goto_link = goto_links[index];
 		goto_link.addEventListener('click', function (e) {
-			e.preventDefault();
 			let target_block_class = goto_link.getAttribute('href').replace('#', '');
 			let target_block = document.querySelector('.' + target_block_class);
-			_goto(target_block, 600);
+			_goto(target_block, 300);
+			e.preventDefault();
 		});
 	}
 }
